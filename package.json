@@ -1,0 +1,19 @@
+{
+  "name": "loopback-connector-fakemail",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SLonoed/loopback-connector-fakemail.git"
+  },
+  "author": "Dmitry Manannikov <slonoed@gmail.com> (http://slonoed.net/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SLonoed/loopback-connector-fakemail/issues"
+  },
+  "homepage": "https://github.com/SLonoed/loopback-connector-fakemail"
+}
