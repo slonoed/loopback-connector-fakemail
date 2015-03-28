@@ -18,3 +18,8 @@ Add to `server/datasources.json`
   },
   ...
 ```
+
+# Dev plan
+
+- [ ] __Change path by params__
+- [ ] Build html preview
