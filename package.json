@@ -1,6 +1,6 @@
 {
   "name": "loopback-connector-fakemail",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Connector for loopback email model. Save email data to /tmp/fakemail/${Date.now()}.json",
   "keywords": ["loopback-connector", "loopback"],
   "main": "index.js",
