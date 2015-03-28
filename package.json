@@ -1,7 +1,8 @@
 {
   "name": "loopback-connector-fakemail",
   "version": "1.0.0",
-  "description": "",
+  "description": "Connector for loopback email model. Save email data to /tmp/fakemail/${Date.now()}.json",
+  "keywords": ["loopback-connector", "loopback"],
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
