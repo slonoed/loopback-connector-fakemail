@@ -1,0 +1,28 @@
+doctype
+html
+head
+    style.
+        .frame {
+            display: block;
+            width: 800px;
+            height: 500px;
+        }
+body
+    h1  Loopback fake emails
+    ul
+        each email in emails
+            if email
+                li
+                    h3
+                        = email.subject
+                        small= ' ' + new Date(email._ts)
+                    strong to:
+                    span=email.to
+                    br
+                    strong from:
+                    span=email.from
+                    if email.html
+                        iframe.frame(src='data:text/html;charset=utf-8,' + encodeURI(email.html))
+                    else
+                        div= email.text
+

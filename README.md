@@ -2,7 +2,7 @@
 
 
 Connector for loopback email model.
-Save email data to `/tmp/fakemail/${Date.now()}.json`
+Save email data to json files and in single index.html file.
 
 ## Usage
 Install `npm i --save loopback-connector-fakemail`
@@ -14,12 +14,26 @@ Add to `server/datasources.json`
   ...
   "email": {
     "name": "email",
-    "connector": "fakemail"
+    "connector": "fakemail",
+    "path": "/tmp/fakemails"
   },
   ...
 ```
 
-# Dev plan
+## Params
+### Path
+**Absolute** path to store emails
 
-- [ ] __Change path by params__
-- [ ] Build html preview
+You can use `datasources.local.js` like this.
+
+```
+import { join } from 'path';
+
+module.exports = {
+    email: {
+        name: 'email',
+        connector: 'fakemail',
+        path: join(__dirname, '../fake-emails')
+    }
+};
+```
