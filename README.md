@@ -22,7 +22,7 @@ Add to `server/datasources.json`
 
 ## Params
 ### Path
-**Absolute** path to store emails
+**Absolute** path to store emails. Default to `/tmp/fakemails/`
 
 You can use `datasources.local.js` like this.
 

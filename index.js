@@ -35,7 +35,7 @@ function clone(source) {
  * @param {Function} cb callback
  */
 Mail.send = function(email, cb) {
-    var fPath = settings.path;
+    var fPath = settings.path || '/tmp/fakemails/';
     var now = new Date();
     var fName = now.getFullYear() + '_' +
         (now.getMonth() + 1) + '_' +
