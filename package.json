@@ -2,10 +2,14 @@
   "name": "loopback-connector-fakemail",
   "version": "1.0.1",
   "description": "Connector for loopback email model. Save email data to /tmp/fakemail/${Date.now()}.json",
-  "keywords": ["loopback-connector", "loopback"],
+  "keywords": [
+    "loopback-connector",
+    "loopback"
+  ],
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint index.js test.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +20,13 @@
   "bugs": {
     "url": "https://github.com/SLonoed/loopback-connector-fakemail/issues"
   },
-  "homepage": "https://github.com/SLonoed/loopback-connector-fakemail"
+  "homepage": "https://github.com/SLonoed/loopback-connector-fakemail",
+  "devDependencies": {
+    "eslint": "^0.18.0",
+    "mocha": "^2.2.1"
+  },
+  "dependencies": {
+    "fs-extra": "^0.18.0",
+    "jade": "^1.9.2"
+  }
 }
