@@ -1,5 +1,7 @@
 # loopback-connector-fakemail
 
+[![Join the chat at https://gitter.im/SLonoed/loopback-connector-fakemail](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/SLonoed/loopback-connector-fakemail?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 
 Connector for loopback email model.
 Save email data to json files and in single index.html file.
