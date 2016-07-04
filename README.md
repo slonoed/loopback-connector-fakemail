@@ -1,5 +1,7 @@
 # loopback-connector-fakemail
 
+# Do not use this package. [Mailhog](https://github.com/mailhog/MailHog) is better choise.
+
 
 Connector for loopback email model.
 Save email data to json files and in single index.html file.
